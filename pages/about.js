@@ -7,7 +7,7 @@ export default function About() {
   <h1>Página About</h1>  
     <ul>
       <li> 
-        <Link href="/">Home</Link>
+        <Link href="/">Voltar</Link>
       </li>
       </ul>   
   </div>
