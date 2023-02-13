@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <div>
           <h1 className={styles.title}>Hello World Next.js</h1>     
       </div>
+      <Image src="/images/city.jpg" width={300} height={400} alt='Cidade à noite'/>
     </>
   )
 }

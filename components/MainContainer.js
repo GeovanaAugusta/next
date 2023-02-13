@@ -9,9 +9,8 @@ export default function Maincontainer({ children }) {
     <div className={styles.container}>
       {children}
     </div>
-    <footer>
+
       <Footer />
-    </footer>
     </>
   )
 
